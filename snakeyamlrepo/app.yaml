@@ -1,0 +1,21 @@
+application: snakeyamlrepo
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: media/images/favicon.ico
+  upload: media/images/favicon.ico
+
+- url: /robots.txt
+  static_files: media/images/robots.txt
+  upload: media/images/robots.txt
+  
+- url: /repository
+  static_dir: repo
+
+- url: /releases
+  static_dir: releases
+
+
