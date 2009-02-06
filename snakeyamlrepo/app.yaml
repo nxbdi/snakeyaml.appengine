@@ -4,6 +4,10 @@ runtime: python
 api_version: 1
 
 handlers:
+- url: (.*)/
+  static_files: www\1/index.html
+  upload: www/index.html
+
 - url: /favicon.ico
   static_files: media/images/favicon.ico
   upload: media/images/favicon.ico
@@ -15,7 +19,7 @@ handlers:
 - url: /repository
   static_dir: repo
 
-- url: /releases
-  static_dir: releases
+- url: /
+  static_dir: www
 
 
