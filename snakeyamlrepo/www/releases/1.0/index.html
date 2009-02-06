@@ -125,6 +125,41 @@
                             <a href="./site/cobertura/index.html">Test coverage report</a>
                         </li>
                     </ul>
+                    <h3>Maven 2</h3>
+                    <ul>
+                        <li>
+                            Repository definition (in settings.xml)
+                            <p>
+                                <pre>
+&lt;repositories&gt;
+  ...
+  &lt;repository&gt;
+    &lt;id&gt;snakeyaml&lt;/id&gt;
+    &lt;name&gt;SnakeYAML repository&lt;/name&gt;
+    &lt;url&gt;http://snakeyamlrepo.appspot.com/repository&lt;/url&gt;
+  &lt;/repository&gt;
+  ...
+&lt;/repositories&gt;
+                        </pre>
+                            </p>
+                        </li>
+                        <li>
+                            Dependency definition (in pom.xml)
+                            <p>
+                                <pre>
+&lt;dependencies&gt;
+  ...
+  &lt;dependency&gt;
+    &lt;groupId&gt;SnakeYAML&lt;/groupId&gt;
+    &lt;artifactId&gt;SnakeYAML&lt;/artifactId&gt;
+    &lt;version&gt;1.0&lt;/version&gt;
+  &lt;/dependency&gt;
+  ...
+&lt;/dependencies&gt;
+                        </pre>
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
