@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<metadata>
+<?xml version="1.0" encoding="UTF-8"?><metadata>
   <groupId>SnakeYAML</groupId>
   <artifactId>SnakeYAML</artifactId>
   <versioning>
@@ -9,6 +7,6 @@
     <versions>
       <version>1.0</version>
     </versions>
-    <lastUpdated>20090203163444</lastUpdated>
+    <lastUpdated>20090206123629</lastUpdated>
   </versioning>
 </metadata>

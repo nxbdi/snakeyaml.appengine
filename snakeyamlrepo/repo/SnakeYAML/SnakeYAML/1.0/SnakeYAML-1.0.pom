@@ -16,7 +16,7 @@
 	<mailingLists>
 		<mailingList>
 			<name>SnakeYAML developers and users List</name>
-			<post>snakeyaml@googlegroups.com</post>
+			<post>snakeyaml-core@googlegroups.com</post>
 		</mailingList>
 	</mailingLists>
 	<scm>
@@ -140,11 +140,10 @@
 		</plugins>
 	</reporting>
 	<distributionManagement>
-		<!-- use the following if you're not using a snapshot version. -->
 		<repository>
 			<id>internal</id>
 			<name>Apache Archiva</name>
-			<url>http://as80418y:8080/archiva/repository/internal</url>
+			<url>http://localhost:8080/archiva/repository/internal</url>
 		</repository>
 	</distributionManagement>
 </project>
